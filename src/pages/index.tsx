@@ -1,4 +1,4 @@
-import  Head from "next/Head";
+//import  Head from "next/Head";
 import { GetServerSideProps } from 'next';
 
 import { ExperienceBar } from "../components/ExperienceBar";
@@ -28,9 +28,9 @@ export default function Home(props : HomeProps) {
 		>
 			
 			<div className={styles.container}>
-				<Head>
+				<head>
 						<title>Inicio | Move.it</title>
-				</Head>
+				</head>
 
 				<ExperienceBar />
 
