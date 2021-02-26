@@ -1,4 +1,4 @@
-import  Head from "next/";
+import  Head from "next/Head";
 import { GetServerSideProps } from 'next';
 
 import { ExperienceBar } from "../components/ExperienceBar";
